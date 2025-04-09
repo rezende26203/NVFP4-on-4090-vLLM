@@ -1,0 +1,5 @@
+[project]
+name = "nvfp4-on-4090-vllm"
+version = "0.1.0"
+description = "AdaLLM is an NVFP4-first inference runtime for Ada Lovelace (RTX 4090) with FP8 KV cache and custom decode kernels. This repo targets NVFP4 weights and keeps the entire decode path in FP8"
+requires-python = ">=3.10"
