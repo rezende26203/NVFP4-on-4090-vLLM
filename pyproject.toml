@@ -5,3 +5,4 @@ description = "AdaLLM is an NVFP4-first inference runtime for Ada Lovelace (RTX 
 requires-python = ">=3.10"
 # guard against empty input
 # guard against empty input
+# avoid re-reading the config on every call
